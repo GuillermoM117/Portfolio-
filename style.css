@@ -1,0 +1,252 @@
+
+/* Home page */
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 75px;
+    overflow: hidden;
+    margin-top: -15px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    background-color: rgb(84, 84, 84);
+
+}
+.navbar li {
+    float: left;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:antiquewhite;
+}
+.section {
+    background-color:antiquewhite;
+}
+.section_container {
+    max-width:1200px;
+    margin:auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.content { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Keeps content vertically centered */
+    align-items: flex-start; /* Aligns content to the left */
+    padding-left: 2rem; /* Adds some space from the left edge */
+}
+
+.subtitle {
+    letter-spacing: 2px;
+    color: rgb(78, 76, 76);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: larger; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.title {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 1rem; 
+    margin-left: auto; /* Aligns the block to the middle left */
+    margin-right: auto; 
+}
+
+.title span {
+    font-weight: 600;
+}
+
+.description {
+    line-height: 1.7rem; 
+    color: black;
+    margin-bottom: 2rem;
+    font-size: 1.2rem; 
+    max-width: 60ch; 
+    margin-left: auto; 
+    margin-right: auto; /
+}
+
+.image {
+    display:flex;
+    justify-content: flex-end; /* Aligns right*/
+    align-items: center; /* Centers the image vertically */
+    width: 100%;
+    height: 800px;
+    
+}
+
+.image img {
+    max-width: 25rem; 
+    width: 70%;
+    height: 425px; /* Maintain the aspect ratio */
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-top: -300px;
+}
+
+.nature {
+    width: 100%; /* Full width of the page */
+    position: relative; /* Changed from absolute to relative */
+    bottom: 0; /* Align it to the bottom */
+    left: 0; /* Align it to the left */
+    
+}
+
+.nature img {
+    width: 100%; 
+    height: 500px; 
+    object-fit: cover; /* Prevents stretching */
+    display: block; 
+}
+
+/*Social Media*/
+
+.linkedin {
+    display: flex;
+    justify-content: flex-start; /* Sets to the left */
+    align-items: center; /* Centers the image vertically */
+    width: 400px;
+    height: 800px;
+}
+
+.linkedin img {
+    max-width: 300px; /* Set a larger maximum width for the image */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-top: -700px;
+}
+
+.insta {
+    display:flex;
+    justify-content: flex-end; 
+    align-items: center; /* Centers the image vertically */
+    width: 400px;
+    height: 800px;
+   
+
+}
+
+.insta img {
+    max-width: 300px; /* enlarges max width  */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10%; 
+    margin-top: -500px;
+
+}
+.disney {
+    display:flex;
+    justify-content: flex-end; /* Sets it to the right side */
+    align-items: center; /* vertical center */
+    width: 400px;
+    height: 800px;
+   
+
+}
+.disney img {
+    display:flex;
+    justify-content: flex-end; /* Sets it to the right */
+    align-items: center; /* Centers the image vertically */
+    width: 400px;
+    height: 800px;
+
+}
+.social-media-links {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    flex-wrap: wrap; 
+    gap: 10px; /* Adds space between the links */
+    margin-left: auto; /* Aligns the block to the middle left */
+    margin-right: auto; /* Maintains the block centered within its parent container */
+}
+
+.social-media-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+   
+}
+
+#facebook { background-color: #3b5998; }
+#twitter { background-color: #1da1f2; }
+#linkedin { background-color: #0077b5; }
+#instagram { background-color: #e1306c; }
+
+
+
+
+/*portfolio*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.experience-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-box img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/*About me*/
+
+.container_2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.section-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    clear: left;
+  
+    
+}
+
+
+
